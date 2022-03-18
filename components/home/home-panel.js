@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import ASCIIChar from './ascii-char';
 
-const HomePanel = ({ ascii, title, link, classNames, children }) => {
+const HomePanel = ({ ascii, link, classNames, children }) => {
   return (
     <>
       <div className={`home-panel ${classNames}`}>

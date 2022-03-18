@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import ReactDOM from 'react-dom';
-
 import VimeoModalBackdrop from './vimeo-modal-backdrop';
 import VimeoModalCloseButton from './vimeo-modal-close-button';
 import VimeoModalContainer from './vimeo-modal-container';
@@ -20,8 +17,6 @@ const VimeoModal = ({ titleText, isShowing, onClose, link }) => {
           title={titleText}
           className="vimeo-modal-picture"
           src={link}
-          // width="640"
-          // height="360"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen

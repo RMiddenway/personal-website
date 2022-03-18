@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-const SquareButton = ({ text, link, onClick }) => {
+const SquareButton = ({ text, onClick }) => {
   // const openLink = (link) => window.open(link, "_blank")?.focus();
 
   // const handleClick = () => {

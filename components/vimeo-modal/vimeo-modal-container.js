@@ -1,4 +1,4 @@
-const VimeoModalContainer = ({ children, handleClose }) => {
+const VimeoModalContainer = ({ children }) => {
   return (
     <>
       {/* <div className="vimeo-modal-underlay" onClick={handleClose} /> */}
