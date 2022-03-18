@@ -184,8 +184,13 @@ p {
 .square-button:hover {
   cursor: pointer;
   text-shadow: -5px 5px 2px rgb(173, 173, 173);
-  background-color: white;
+  /* background-color: gr; */
   color: black;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 255, 255),
+    rgb(242, 242, 242)
+  );
 }
 
 .square-button a {
