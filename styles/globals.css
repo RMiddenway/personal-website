@@ -1,6 +1,8 @@
 html {
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(242, 242, 242);
+  height: 100vh;
+  min-height: -webkit-fill-available;
 }
 body {
   margin: 0;
@@ -12,6 +14,7 @@ a:hover {
 /* pages */
 .page {
   height: 100vh;
+
   display: flex;
   flex-flow: column;
 }
