@@ -16,9 +16,9 @@ const Sound = () => {
           <PageHeader title="Sound Design" />
           <PageContent>
             <p>
-              I have over 15 years of experience in sound design and post
-              production for cinema, television, podcast, and other forms of
-              audiovisual media.
+              Over 15 years of experience in sound design and post production
+              for cinema, television, podcast, and other forms of audiovisual
+              media.
             </p>
             <p>
               I have worked with a wide range of clients, from independent
