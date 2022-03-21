@@ -140,6 +140,8 @@ a:hover {
   flex-wrap: wrap;
   padding-left: 1rem;
   padding-right: 1rem;
+
+  background-image: linear-gradient(rgb(220, 220, 220), rgb(242, 242, 242));
 }
 .header-links-container {
   display: flex;
