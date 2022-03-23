@@ -3,6 +3,7 @@ html {
   background-color: rgb(242, 242, 242);
   height: 100vh;
   min-height: -webkit-fill-available;
+  position: fixed;
 }
 body {
   margin: 0;
@@ -83,7 +84,7 @@ a:hover {
   background-color: rgb(200, 200, 200);
 }
 .home-panel-container {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   height: 100%;
   display: flex;
 }
@@ -186,6 +187,7 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding: 1rem;
 }
 .square-button:hover {
   cursor: pointer;
