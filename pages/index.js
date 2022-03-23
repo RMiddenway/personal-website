@@ -31,10 +31,10 @@ export default function Home() {
                 </h2>
               </Link>
             </HomePanel>
-            <HomePanel ascii={DevASCII} link="/dev" title="Development">
+            <HomePanel ascii={DevASCII} link="/dev" title="App Dev">
               <Link href="/dev" passHref>
                 <h2 className="subheading subheading__home clickable">
-                  Development
+                  App Development
                 </h2>
               </Link>
             </HomePanel>
