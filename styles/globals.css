@@ -3,7 +3,7 @@ html {
   background-color: rgb(242, 242, 242);
   height: 100vh;
   min-height: -webkit-fill-available;
-  position: fixed;
+  /* position: fixed; */
 }
 body {
   margin: 0;
@@ -38,6 +38,7 @@ a:hover {
   font-style: italic;
 }
 .heading__home {
+  user-select: none;
   font-weight: normal;
   font-size: 3rem;
   margin-left: 2rem;
@@ -101,6 +102,7 @@ a:hover {
   animation-fill-mode: forwards;
   font-size: 2.5vmin;
   white-space: pre;
+  user-select: none;
 }
 .ascii:hover {
   /* text-shadow: -5px 5px 2px rgb(173, 173, 173); */
