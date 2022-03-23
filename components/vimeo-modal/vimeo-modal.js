@@ -1,3 +1,5 @@
+import React from 'react';
+
 import VimeoModalBackdrop from './vimeo-modal-backdrop';
 import VimeoModalCloseButton from './vimeo-modal-close-button';
 import VimeoModalContainer from './vimeo-modal-container';

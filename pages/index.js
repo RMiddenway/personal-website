@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import React from 'react';
 
 import HomeHeader from '../components/home/home-header';
 import HomePanel from '../components/home/home-panel';

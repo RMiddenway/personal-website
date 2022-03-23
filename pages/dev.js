@@ -1,3 +1,5 @@
+import React from 'react';
+
 import PageContent from '../components/page/page-content';
 import PageHeader from '../components/page/page-header';
 import SquareButton from '../components/page/square-button';

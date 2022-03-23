@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SquareButton = ({ text, onClick }) => {
   // const openLink = (link) => window.open(link, "_blank")?.focus();
 
