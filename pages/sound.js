@@ -52,6 +52,7 @@ const Sound = () => {
           ></SquareButton>
         </SquareButtonContainer>
       </div>
+      
       <VimeoModal
         titleText="Design Reel"
         isShowing={currentModal === "design"}

@@ -245,7 +245,7 @@ p {
     opacity: 1;
   }
 }
-@keyframes fadeOutAnimation {
+@keyframes fadeOutSemi{
   0% {
     opacity: 0.5;
   }
@@ -263,7 +263,14 @@ p {
   opacity: 0.5;
   width: 100vw;
   height: 100vh;
+  
+  animation-fill-mode: forwards;
+}
+.vimeo-modal-backdrop--opening {
   animation: fadeInSemi ease 0.5s;
+}
+.vimeo-modal-backdrop--closing {
+  animation: fadeOutSemi ease 0.5s;
 }
 /* .vimeo-modal-backdrop--closing {
   animation: fadeOutAnimation ease 0.5s;
@@ -278,7 +285,11 @@ p {
   width: 90vw;
   height: 90vh;
   background-color: white;
+  /* animation: slideInUp ease 0.5s; */
+}
+.vimeo-modal-container--opening {
   animation: slideInUp ease 0.5s;
+  animation-fill-mode: forwards;
 }
 .vimeo-modal-container--closing {
   animation: slideDownOut ease 0.5s;
